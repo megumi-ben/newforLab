@@ -14,6 +14,7 @@ public class Main {
         graph.addEdge(ross,rachel);
         graph.addEdge(ben,ross);
         graph.addEdge(ross,ben);
+System.out.println("C4");
         System.out.println(graph.getDistance(rachel,ross));
         System.out.println(graph.getDistance(rachel,ben));
         System.out.println(graph.getDistance(rachel,rachel));
